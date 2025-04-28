@@ -13,7 +13,7 @@ const services = [
 const Main = () => {
   return (
     <main id="main">
-      <h1 className="main-title">Masovia Garden</h1>
+      <h1 className="main-title">Masovia Gardens</h1>
       <div id='napisy1'>
         <h2>Co oferujemy?</h2>
       </div>
