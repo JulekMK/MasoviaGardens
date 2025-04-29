@@ -180,11 +180,8 @@ const PaymentForm = ({ amount, onSuccess, onCancel }) => {
 const Calendar = () => {
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const [reservedDates, setReservedDates] = useState([
-    new Date(2025, 3, 28), 
-    new Date(2025, 3, 27),
-    new Date(2025, 3, 29), 
-    new Date(2025, 3, 30),   
-    new Date(2025, 4, 1),   
+  
+    
     new Date(2025, 4, 2),   
     new Date(2025, 4, 3),   
     new Date(2025, 4, 4),   
