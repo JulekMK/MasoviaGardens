@@ -182,12 +182,14 @@ const Calendar = () => {
   const [reservedDates, setReservedDates] = useState([
   
     
-    new Date(2025, 4, 2),   
+ 
     new Date(2025, 4, 3),   
     new Date(2025, 4, 4),   
     new Date(2025, 4, 5),   
     new Date(2025, 4, 7),   
     new Date(2025, 4, 6),   
+    new Date(2025, 4,8),  
+    new Date(2025, 4, 9),  
   ]);
   const [selectedDate, setSelectedDate] = useState(null);
   const [showPaymentModal, setShowPaymentModal] = useState(false);
